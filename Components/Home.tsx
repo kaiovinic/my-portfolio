@@ -36,7 +36,7 @@ const Home = () => {
         </div>
         <div className="w-[500px] hidden bg-[#55e6e5] relative lg:flex items-center rounded-full h-[500px]">
           <Image
-            src="/images/perfil.jpg"
+            src="/images/perfil02.png"
             alt="user"
             layout="fill"
             className="object-cover rounded-full"
