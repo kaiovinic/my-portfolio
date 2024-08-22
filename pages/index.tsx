@@ -1,3 +1,4 @@
+import About from "@/Components/About";
 import Home from "@/Components/Home";
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
@@ -11,12 +12,12 @@ const HomePage = () => {
   return (
     <div className="overflow-x-hidden">
       <div>
-        {/* Navbar */}
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
-        {/* Home */}
         <Home />
-        {/* Sobre */}
+        <div className="relative z-[30]">
+          <About />
+        </div>
       </div>
     </div>
   );

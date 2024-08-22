@@ -6,7 +6,7 @@ import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
 
 const Home = () => {
   return (
-    <div className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+    <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center">
       <Particle />
       <div className="w-[80%]  grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-center grid">
         <div>
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
         <div className="w-[500px] hidden bg-[#55e6e5] relative lg:flex items-center rounded-full h-[500px]">
           <Image
-            src="/images/perfil02.png"
+            src="/images/perfil03.jpeg"
             alt="user"
             layout="fill"
             className="object-cover rounded-full"
