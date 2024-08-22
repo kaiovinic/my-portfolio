@@ -19,10 +19,15 @@ const About = () => {
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px]  bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%] ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              laborum eius reiciendis, sunt provident officiis dolorum magni
-              omnis esse, beatae corrupti rem voluptate animi explicabo unde
-              dignissimos ad voluptates optio?
+              Como Desenvolvedor Frontend, acredito que a tecnologia não é
+              apenas uma ferramenta, mas um meio para transformar visões em
+              realidades palpáveis. Cada projeto é uma oportunidade de traduzir
+              ideias em interfaces intuitivas, funcionais e esteticamente
+              agradáveis. Para mim, desenvolvimento frontend é mais do que
+              escrever código; é sobre entender a visão de cada cliente,
+              alinhar-se aos seus objetivos e trabalhar de forma colaborativa
+              para criar soluções que impactam e fazem a diferença. Vamos
+              transformar suas visões em realidade.
             </p>
           </div>
           <button
@@ -35,7 +40,7 @@ const About = () => {
         </div>
         <div className="lg:w-[500px] lg:h-[500px] relative mx-auto md:mx-0 mt-[2rem] lg:mt-0 w-[300px] h-[300px]">
           <Image
-            src="/images/user05.jpeg"
+            src="/images/user06.jpeg"
             alt="user"
             layout="fill"
             objectFit="contain"

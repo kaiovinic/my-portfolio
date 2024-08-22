@@ -2,6 +2,8 @@ import About from "@/Components/About";
 import Home from "@/Components/Home";
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
+import Services from "@/Components/Services";
+import Skils from "@/Components/Skils";
 import React from "react";
 
 const HomePage = () => {
@@ -17,6 +19,8 @@ const HomePage = () => {
         <Home />
         <div className="relative z-[30]">
           <About />
+          <Services />
+          <Skils />
         </div>
       </div>
     </div>
