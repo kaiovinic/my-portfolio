@@ -2,6 +2,7 @@ import About from "@/Components/About";
 import Home from "@/Components/Home";
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
+import Projects from "@/Components/Projects";
 import Services from "@/Components/Services";
 import Skils from "@/Components/Skils";
 import React from "react";
@@ -21,6 +22,7 @@ const HomePage = () => {
           <About />
           <Services />
           <Skils />
+          <Projects />
         </div>
       </div>
     </div>
