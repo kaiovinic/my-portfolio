@@ -2,7 +2,8 @@ import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
-import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
+import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Home = () => {
   return (
@@ -19,19 +20,26 @@ const Home = () => {
             dedicado, atualmente cursando Análise e Desenvolvimento de Sistemas.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <button
+            <a
+              href="https://drive.google.com/file/d/1s8iDTX6_BP1lnbJwlksLtdYjT99PDcTj/view?usp=sharing"
+              download="KaioCurriculo.pdf"
+              target="_blank"
+              rel="noreferrer"
               className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold
             uppercase bg-[#55e6e5] text-black flex items-center space-x-2"
             >
               <p>Download Cv</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </button>
-            <button className="flex items-center space-x-2">
-              <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#55e6e5]" />
-              <p className="text-[20px] font-semibold text-white">
-                Assista ao vídeo
-              </p>
-            </button>
+            </a>
+            <a
+              href="https://wa.me/5571986497888?text=Olá%20gostaria%20de%20mais%20informações"
+              className="flex items-center space-x-2 "
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IoLogoWhatsapp className="w-[4rem] h-[4rem]  text-[#55e6e5] hover:text-yellow-400 transition-all duration-200" />
+              <p className="text-[20px] font-semibold text-white">Whatsapp</p>
+            </a>
           </div>
         </div>
         <div className="w-[500px] hidden bg-[#55e6e5] relative lg:flex items-center rounded-full h-[500px]">

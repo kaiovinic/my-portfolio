@@ -1,6 +1,7 @@
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React from "react";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const About = () => {
   return (
@@ -30,15 +31,20 @@ const About = () => {
               transformar suas visões em realidade.
             </p>
           </div>
-          <button
-            className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold
-            uppercase bg-[#55e6e5] text-black flex items-center space-x-2"
+          <a
+            href="https://wa.me/5571986497888?text=Olá%20gostaria%20de%20mais%20informações"
+            className="flex items-center space-x-2 "
+            target="_blank"
+            rel="noreferrer"
           >
-            <p>Download Cv</p>
-            <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-          </button>
+            <IoLogoWhatsapp className="w-[4rem] h-[4rem]  text-[#55e6e5] hover:text-yellow-400 transition-all duration-200" />
+            <p className="text-[20px] font-semibold text-white">Whatsapp</p>
+          </a>
         </div>
-        <div className="lg:w-[500px] lg:h-[500px] relative mx-auto md:mx-0 mt-[2rem] lg:mt-0 w-[300px] h-[300px]">
+        <div
+          data-aos="fade-left"
+          className="lg:w-[500px] lg:h-[500px] relative mx-auto md:mx-0 mt-[2rem] lg:mt-0 w-[300px] h-[300px]"
+        >
           <Image
             src="/images/user06.jpeg"
             alt="user"
