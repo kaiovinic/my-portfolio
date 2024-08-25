@@ -1,11 +1,10 @@
-import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React from "react";
 import { IoLogoWhatsapp } from "react-icons/io";
 
 const About = () => {
   return (
-    <div className="bg-[#121121] pb-[3rem] pt-[4rem] md:pt-[8rem]">
+    <div className="bg-[#121121] pb-[3rem] pt-[4rem] md:pt-[8rem]" id="about">
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
         <div>
           <h1 className="text-[20px] font-bold uppercase text-[#55e6e5] mb-[1rem] ">

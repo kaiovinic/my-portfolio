@@ -1,15 +1,14 @@
-import { UserCircleIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React from "react";
 
 const Blog = () => {
   return (
-    <div className="pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#02050a]">
+    <div className="pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#02050a]" id="blogs">
       <h1 className="heading">
         Minhas <span className="text-yellow-400">redes sociais</span>
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-[4rem] gap-[3rem] w-[80%] mx-auto">
-        <div>
+        <div data-aos="fade-up">
           <div className="w-[100%] relative h-[400px]">
             <Image
               src="/images/linkedin.png"
@@ -28,13 +27,13 @@ const Blog = () => {
                 className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px]
             mx-auto"
               >
-                Conecte-se comigo no Linkedin
+                Venha conecte-se comigo no Linkedin
               </button>
             </a>
           </div>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-delay="300">
           <div className="w-[100%] relative h-[400px]">
             <Image
               src="/images/instagram.png"
@@ -53,13 +52,13 @@ const Blog = () => {
                 className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px]
             mx-auto"
               >
-                Conecte-se comigo no Instagram
+                Venha conecte-se comigo no Instagram
               </button>
             </a>
           </div>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-delay="600">
           <div className="w-[100%] relative h-[400px]">
             <Image
               src="/images/github.png"
