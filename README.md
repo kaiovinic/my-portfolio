@@ -1,4 +1,4 @@
-[PROJECT__URL]:https://https://black-nextjs-nu.vercel.app/
+[PROJECT__URL]:https://my-portfolio-xi-eight-43.vercel.app/
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 
 <h1 align="center" style="font-weight: bold;">My Portfólio</h1>
