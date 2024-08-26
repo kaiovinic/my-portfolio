@@ -11,7 +11,7 @@ const Blog = () => {
         <div data-aos="fade-up">
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="/images/github.png"
+              src="/images/blog1.png"
               alt="linkedin"
               fill
               style={{ objectFit: "contain" }}
@@ -34,7 +34,7 @@ const Blog = () => {
         <div data-aos="fade-up" data-aos-delay="300">
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="/images/linkedin.png"
+              src="/images/instagran.png"
               alt="instagram"
               fill
               style={{ objectFit: "contain" }}
