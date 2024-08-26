@@ -47,11 +47,11 @@ const About = () => {
           <Image
             src="/images/user06.jpeg"
             alt="user"
-            layout="fill"
-            objectFit="contain"
-            className="relative z-[11] w-[100%] h-[100%] object-contain"
+            fill
+            style={{ objectFit: "contain" }}
+            className="relative z-[11] object-contain"
           />
-          <div className="absolute w-[80%] h-[100%]  z-[10] bg-[#55e6e5] top-[-2rem] right-[1.5rem]"></div>
+          <div className="absolute w-[80%] h-[100%] z-[10] bg-[#55e6e5] top-[-2rem] right-[1.5rem]"></div>
         </div>
       </div>
     </div>

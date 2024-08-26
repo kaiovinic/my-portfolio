@@ -26,15 +26,14 @@ const Home = () => {
             <a
               href="https://drive.google.com/uc?export=download&id=1s8iDTX6_BP1lnbJwlksLtdYjT99PDcTj"
               download="KaioCurriculo.pdf"
-              className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold
-            uppercase bg-[#55e6e5] text-black flex items-center space-x-2"
+              className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6e5] text-black flex items-center space-x-2"
             >
               <p>Download Cv</p>
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </a>
             <a
               href="https://wa.me/5571986497888?text=Olá%20gostaria%20de%20mais%20informações"
-              className="flex items-center space-x-2 "
+              className="flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
             >
@@ -47,8 +46,9 @@ const Home = () => {
           <Image
             src="/images/perfil03.jpeg"
             alt="user"
-            layout="fill"
-            className="object-cover rounded-full"
+            fill
+            style={{ objectFit: "cover" }}
+            className="rounded-full"
           />
         </div>
       </div>

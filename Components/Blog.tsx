@@ -13,7 +13,8 @@ const Blog = () => {
             <Image
               src="/images/linkedin.png"
               alt="linkedin"
-              layout="fill"
+              fill
+              style={{ objectFit: "contain" }}
               className="object-contain"
             />
           </div>
@@ -23,10 +24,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button
-                className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px]
-            mx-auto"
-              >
+              <button className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                 Venha conecte-se comigo no Linkedin
               </button>
             </a>
@@ -36,9 +34,10 @@ const Blog = () => {
         <div data-aos="fade-up" data-aos-delay="300">
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="/images/instagram.png"
+              src="/images/instagran.png"
               alt="instagram"
-              layout="fill"
+              fill
+              style={{ objectFit: "contain" }}
               className="object-contain"
             />
           </div>
@@ -48,10 +47,7 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button
-                className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px]
-            mx-auto"
-              >
+              <button className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
                 Venha conecte-se comigo no Instagram
               </button>
             </a>
@@ -62,8 +58,9 @@ const Blog = () => {
           <div className="w-[100%] relative h-[400px]">
             <Image
               src="/images/github.png"
-              alt="instagram"
-              layout="fill"
+              alt="github"
+              fill
+              style={{ objectFit: "contain" }}
               className="object-contain"
             />
           </div>
@@ -73,11 +70,8 @@ const Blog = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button
-                className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px]
-            mx-auto"
-              >
-                Venha conhece mais projetos no meu Github
+              <button className="w-fit px-[2rem] py-[1rem] bg-[#55e6e5] relative mt-[-3rem] text-black font-semibold text-[17px] mx-auto">
+                Venha conhecer mais projetos no meu Github
               </button>
             </a>
           </div>

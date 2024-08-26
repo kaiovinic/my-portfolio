@@ -17,8 +17,9 @@ const Projects = () => {
               <Image
                 src="/images/meu-portifolio.png"
                 alt="portfolio"
-                layout="fill"
+                fill
                 className="object-contain"
+                style={{ objectFit: "contain" }}
               />
             </a>
           </div>
@@ -29,8 +30,9 @@ const Projects = () => {
             <Image
               src="/images/site-karen.png"
               alt="portfolio"
-              layout="fill"
+              fill
               className="object-contain"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </div>
@@ -40,8 +42,9 @@ const Projects = () => {
             <Image
               src="/images/api-github.png"
               alt="portfolio"
-              layout="fill"
+              fill
               className="object-contain"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </div>
@@ -51,8 +54,9 @@ const Projects = () => {
             <Image
               src="/images/black-next.png"
               alt="portfolio"
-              layout="fill"
+              fill
               className="object-contain"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </div>
@@ -62,8 +66,9 @@ const Projects = () => {
             <Image
               src="/images/jogo-da-memoria.png"
               alt="portfolio"
-              layout="fill"
+              fill
               className="object-contain"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </div>
@@ -71,10 +76,11 @@ const Projects = () => {
         <div data-aos="fade-up" data-aos-delay="1500">
           <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
             <Image
-              src="/images/p1.jpg"
+              src="/images/api-github.png"
               alt="portfolio"
-              layout="fill"
+              fill
               className="object-contain"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </div>
