@@ -59,7 +59,6 @@
   <li>react-type-animation: Componente React para animação de texto.</li>
   <li>react-scroll: Biblioteca para rolagem suave e navegação em páginas.</li>
   <li>AOS: Biblioteca Animate On Scroll para animações de rolagem.</li>
-  <li>TypeScript: Um superconjunto de JavaScript que fornece tipos estáticos.</li>
  <li>react-multi-carousel: Biblioteca para criar carrosséis responsivos e personalizados.</li>
 </ul>
 
