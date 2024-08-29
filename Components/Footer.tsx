@@ -42,9 +42,7 @@ const Footer = () => {
             <h1 className="text-[25px] mb-[0.2rem] text-white font-semibold ">
               Whatsapp
             </h1>
-            <p className="text-[17px] w-[90%] text-white opacity-60">
-              (71)986497888
-            </p>
+            <p className="text-[17px] w-[90%] text-white opacity-60"></p>
           </div>
         </div>
 

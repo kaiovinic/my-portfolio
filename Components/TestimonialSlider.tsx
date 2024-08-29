@@ -32,7 +32,7 @@ const TestimonialSlider = () => {
       responsive={responsive}
       infinite={true}
       autoPlay={true}
-      autoPlaySpeed={2000}
+      autoPlaySpeed={5000}
     >
       <ClientReview
         image="/images/c1.jpg"
