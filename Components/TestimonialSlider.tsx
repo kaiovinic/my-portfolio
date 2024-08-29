@@ -44,7 +44,7 @@ const TestimonialSlider = () => {
         name="Giovanna Leite"
         assessment="Kaio demonstrou um profissionalismo exemplar durante todo o desenvolvimento do nosso site. Sua expertise fez toda a diferença, resultando em uma plataforma rápida e responsiva que elevou nosso negócio a outro patamar. Ele foi sempre muito comunicativo e aberto a sugestões, tornando a colaboração muito produtiva."
       />
-      <ClientReview
+      {/* <ClientReview
         image="/images/c3.png"
         name="Lucas Otino"
         assessment="Fiquei muito satisfeito com o trabalho do Kaio! Desde o início, ele se mostrou dedicado e comprometido com a qualidade do projeto. Ele superou todas as minhas expectativas, entregando um site moderno, funcional e otimizado para SEO. Recomendo Kaio sem hesitar para qualquer um que precise de um desenvolvedor frontend talentoso."
@@ -53,7 +53,7 @@ const TestimonialSlider = () => {
         image="/images/c4.png"
         name="Daniele Vilares"
         assessment="O Kaio é um desenvolvedor excepcional! Ele transformou nossa ideia em um site incrível, com uma interface intuitiva e design impecável. Sua capacidade de entender e implementar as necessidades do cliente, aliada à sua experiência com tecnologias modernas, garantiu um resultado final que superou todas as expectativas. Sem dúvida, é um profissional que faz a diferença!"
-      />
+      /> */}
     </Carousel>
   );
 };
