@@ -24,7 +24,8 @@ const Home = () => {
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <a
-              href="https://drive.google.com/uc?export=download&id=1CXKwu_hFTz6MB8A43hdcrJ8A_8Hf71eW
+              href="https://drive.google.com/uc?export=download&id=1R0oTtFSp2MieBUX1rDG9D_S_skYMp-mD
+
               "
               download="KaioCurriculo.pdf"
               className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6e5] text-black flex items-center space-x-2"
@@ -33,7 +34,7 @@ const Home = () => {
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </a>
             <a
-              href="https://wa.me/5571986497888?text=Olá%20gostaria%20de%20mais%20informações"
+              href="https://w.app/EubHWp"
               className="flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
