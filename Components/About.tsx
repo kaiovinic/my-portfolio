@@ -31,7 +31,7 @@ const About = () => {
             </p>
           </div>
           <a
-            href="https://w.app/EubHWp"
+            href="https://wa.me/5571986497888"
             className="flex items-center space-x-2 "
             target="_blank"
             rel="noreferrer"

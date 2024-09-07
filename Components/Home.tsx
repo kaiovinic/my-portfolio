@@ -34,7 +34,7 @@ const Home = () => {
               <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </a>
             <a
-              href="https://w.app/EubHWp"
+              href="https://wa.me/5571986497888"
               className="flex items-center space-x-2"
               target="_blank"
               rel="noreferrer"
