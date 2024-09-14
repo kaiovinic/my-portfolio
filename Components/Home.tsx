@@ -24,7 +24,7 @@ const Home = () => {
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <a
-              href="https://drive.google.com/uc?export=download&id=1R0oTtFSp2MieBUX1rDG9D_S_skYMp-mD
+              href="https://drive.google.com/uc?export=download&id=1lDiusajalGcKakbh1AzMKl2-GhejCnwC
 
               "
               download="KaioCurriculo.pdf"
