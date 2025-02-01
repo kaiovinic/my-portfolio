@@ -104,12 +104,12 @@ const Projects = () => {
         <div data-aos="fade-up" data-aos-delay="1500">
           <div className="trasnsform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-full h-[200px] md:h-[300px]">
             <a
-              href="https://secretword-delta.vercel.app/"
+              href="https://site-giovanna-five.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                src="/images/secret-word.png"
+                src="/images/site-giovanna.png"
                 alt="portfolio"
                 fill
                 className="object-contain"
