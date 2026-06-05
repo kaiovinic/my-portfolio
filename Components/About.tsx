@@ -19,15 +19,7 @@ const About = () => {
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px]  bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%] ">
-              Como Desenvolvedor Frontend, acredito que a tecnologia não é
-              apenas uma ferramenta, mas um meio para transformar visões em
-              realidades palpáveis. Cada projeto é uma oportunidade de traduzir
-              ideias em interfaces intuitivas, funcionais e esteticamente
-              agradáveis. Para mim, desenvolvimento frontend é mais do que
-              escrever código; é sobre entender a visão de cada cliente,
-              alinhar-se aos seus objetivos e trabalhar de forma colaborativa
-              para criar soluções que impactam e fazem a diferença. Vamos
-              transformar suas visões em realidade.
+              Como Desenvolvedor Fullstack, acredito que a tecnologia é a ponte para transformar visões complexas em soluções completas e escaláveis. Unindo o melhor do desenvolvimento frontend (React e Angular) com um ecossistema backend robusto (C#, .NET, Node.js) e a robustez corporativa de Salesforce, crio soluções end-to-end integradas e eficientes. Para mim, desenvolver software vai além de escrever linhas de código: trata-se de arquitetar soluções robustas e projetar experiências que trazem impacto real, otimizando processos de ponta a ponta. Vamos transformar suas visões em realidade.
             </p>
           </div>
           <a

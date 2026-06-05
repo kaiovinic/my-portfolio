@@ -19,14 +19,12 @@ const Home = () => {
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-            Sou um Desenvolvedor de Software Frontend, altamente motivado e
+            Sou um Desenvolvedor de Software Full-Stack, altamente motivado e
             dedicado, atualmente cursando Análise e Desenvolvimento de Sistemas.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <a
-              href="https://docs.google.com/document/d/1UijNrB7JvNWO8PxhwHwJlY23A8W3wl_2Tjpfb9MOrew/export?format=pdf
-
-
+              href="https://drive.google.com/uc?export=download&id=1Yl-QVDPG_cWifiUmlT17uxxUDyLu1eBI
               "
               download="KaioCurriculo.pdf"
               className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6e5] text-black flex items-center space-x-2"

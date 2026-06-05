@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,nextjs,npm,git,html,css,tailwind" />
+    <img src="https://skillicons.dev/icons?i=ts,nextjs,angular,cs,dotnet,nodejs,salesforce,tailwind,npm,git,html,css" />
   </a>
 </p>
 
@@ -23,7 +23,7 @@
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
-<p>Bem-vindo ao repositório do meu site de portfólio pessoal! Este projeto exibe minhas habilidades e projetos como desenvolvedor frontend. Foi construído com Next.js, Tailwind CSS e outras tecnologias modernas da web.</p>
+<p>Bem-vindo ao repositório do meu site de portfólio pessoal! Este projeto exibe minhas habilidades e projetos como desenvolvedor fullstack (especialista em Angular, React/Next.js, Node.js, C#/.NET e Salesforce). Foi construído com Next.js, Tailwind CSS e outras tecnologias modernas da web.</p>
 
 <h2 align="center">📦 Funcionalidades</h2>
 <ul>
@@ -51,15 +51,22 @@
 <h2 align="center" id="tecnologias">🛠️Tecnologias utilizadas</h2>
 <h3>Frontend</h3>
 <ul>
+  <li>Angular: Plataforma e framework de desenvolvimento para a criação de SPAs corporativas estruturadas.</li>
   <li>TypeScript: Superset do JavaScript que adiciona tipagem estática ao código.</li>
-  <li>Next.js: Framework React para desenvolvimento de aplicações web modernas e rápidas.</li>
-  <li>React: Uma biblioteca JavaScript para construção de interfaces de usuário.</li>
+  <li>Next.js & React: Frameworks para desenvolvimento de aplicações web modernas, rápidas e otimizadas para SEO.</li>
   <li>@heroicons/react: Um conjunto de ícones SVG para React.</li>
   <li>react-tsparticles: Biblioteca para criar animações de partículas interativas.</li>
   <li>react-type-animation: Componente React para animação de texto.</li>
   <li>react-scroll: Biblioteca para rolagem suave e navegação em páginas.</li>
   <li>AOS: Biblioteca Animate On Scroll para animações de rolagem.</li>
- <li>react-multi-carousel: Biblioteca para criar carrosséis responsivos e personalizados.</li>
+  <li>react-multi-carousel: Biblioteca para criar carrosséis responsivos e personalizados.</li>
+</ul>
+
+<h3>Backend & CRM</h3>
+<ul>
+  <li>Node.js: Ambiente de execução JavaScript no servidor, ideal para APIs rápidas e escaláveis.</li>
+  <li>C# & .NET: Linguagem e ecossistema robusto da Microsoft para APIs RESTful, microsserviços e sistemas backend de alto desempenho.</li>
+  <li>Salesforce (Apex & LWC): Customizações, lógica de negócio no lado do servidor e componentes modernos no ecossistema CRM número um do mundo.</li>
 </ul>
 
 <h3>Implantação em produção</h3>

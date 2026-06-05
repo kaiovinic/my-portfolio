@@ -37,7 +37,7 @@ const Nav = ({ openNav }: Props) => {
         </div>
         <div className="nav-link">
           <ScrollLink to="blogs" smooth={true} duration={500} offset={-70}>
-            BLOGS
+            REDES
           </ScrollLink>
         </div>
         <div className="nav-link">

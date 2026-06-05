@@ -67,7 +67,7 @@ const MobileNav = ({ nav, closeNav }: Props) => {
             offset={-70}
             onClick={closeNav}
           >
-            BLOGS
+            REDES
           </ScrollLink>
         </div>
         <div className="nav-link-mobile">
