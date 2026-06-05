@@ -19,7 +19,7 @@ const Home = () => {
           </h1>
           <TextEffect />
           <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-            Sou um Desenvolvedor de Software Full-Stack, altamente motivado e
+            Sou um Desenvolvedor de Software Full-Stack na Amvox, altamente motivado e
             dedicado, atualmente cursando Análise e Desenvolvimento de Sistemas.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
