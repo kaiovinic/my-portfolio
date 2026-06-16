@@ -12,8 +12,14 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Head from "next/head";
+import { getGitHubProjects, Project } from "@/lib/github";
+import { GetStaticProps } from "next";
 
-const HomePage = () => {
+interface Props {
+  projects: Project[];
+}
+
+const HomePage = ({ projects }: Props) => {
   const [nav, setNav] = React.useState(false);
   const openNav = () => setNav(true);
   const closeNav = () => setNav(false);
@@ -58,7 +64,7 @@ const HomePage = () => {
           <About />
           <Services />
           <Skils />
-          <Projects />
+          <Projects projects={projects} />
           <Testimonial />
           <Blog />
           <Footer />
@@ -66,6 +72,17 @@ const HomePage = () => {
       </div>
     </div>
   );
+};
+
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const projects = await getGitHubProjects();
+  return {
+    props: {
+      projects,
+    },
+    // Revalidate once every hour in production
+    revalidate: 3600,
+  };
 };
 
 export default HomePage;

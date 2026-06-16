@@ -1,57 +1,128 @@
 import React from "react";
-import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
-import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
-import { IoLogoWhatsapp } from "react-icons/io";
+import { FaAngular, FaReact, FaNodeJs, FaSalesforce, FaWhatsapp, FaDownload } from "react-icons/fa";
+import { SiCsharp, SiDotnet } from "react-icons/si";
 
 const Home = () => {
   return (
-    <div
-      className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center"
-      id="nav"
-    >
-      <Particle />
-      <div className="w-[80%] grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-center grid">
-        <div>
-          <h1 className="text-[35px] lg:text-[50px] font-bold text-white">
-            OLÁ, EU SOU <span className="text-yellow-400">KAIO VINICIUS!</span>
-          </h1>
-          <TextEffect />
-          <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-            Sou um Desenvolvedor de Software Full-Stack na Amvox, altamente motivado e
-            dedicado, atualmente cursando Análise e Desenvolvimento de Sistemas.
-          </p>
-          <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
+    <div className="bg-backgroundColor pt-[16vh] pb-[4rem] min-h-screen flex items-center" id="nav">
+      <div className="w-[85%] mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 items-stretch">
+        
+        {/* Card 1: Principal Intro (col-span-3) */}
+        <div className="md:col-span-3 card-bento flex flex-col justify-between gap-6 min-h-[350px]">
+          <div>
+            <h1 className="text-[32px] sm:text-[40px] md:text-[50px] font-bold text-textColor leading-tight font-heading">
+              OLÁ, EU SOU <span className="text-cta">KAIO VINICIUS!</span>
+            </h1>
+            <div className="mt-2 min-h-[4rem]">
+              <TextEffect />
+            </div>
+            <p className="mt-4 text-[16px] sm:text-[18px] text-secondaryColor font-body leading-relaxed max-w-[90%]">
+              Sou um Desenvolvedor de Software Full-Stack, focado em criar arquiteturas backend robustas com C#/.NET e Node.js, interfaces ricas com Angular/React e customizações de grande escala no ecossistema Salesforce.
+            </p>
+          </div>
+          
+          <div className="flex flex-wrap gap-4 items-center">
             <a
-              href="https://drive.google.com/uc?export=download&id=1Yl-QVDPG_cWifiUmlT17uxxUDyLu1eBI
-              "
+              href="https://drive.google.com/uc?export=download&id=1Yl-QVDPG_cWifiUmlT17uxxUDyLu1eBI"
               download="KaioCurriculo.pdf"
-              className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6e5] text-black flex items-center space-x-2"
+              className="btn-primary flex items-center gap-2 text-[16px]"
             >
-              <p>Download Cv</p>
-              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
+              <span>Download CV</span>
+              <FaDownload className="w-[1rem] h-[1rem]" />
             </a>
             <a
               href="https://wa.me/5571986497888"
-              className="flex items-center space-x-2"
+              className="btn-secondary flex items-center gap-2 text-[16px]"
               target="_blank"
               rel="noreferrer"
             >
-              <IoLogoWhatsapp className="w-[4rem] h-[4rem] text-[#55e6e5] hover:text-yellow-400 transition-all duration-200" />
-              <p className="text-[20px] font-semibold text-white">Whatsapp</p>
+              <FaWhatsapp className="w-[1.2rem] h-[1.2rem] text-textColor group-hover:text-white" />
+              <span>Fale Comigo</span>
             </a>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6e5] relative lg:flex items-center rounded-full h-[500px]">
+
+        {/* Card 2: Profile Picture (col-span-1, row-span-2) */}
+        <div className="md:col-span-1 md:row-span-2 card-bento p-0 overflow-hidden relative group min-h-[350px]">
           <Image
-            src="/images/perfil03.jpeg"
-            alt="user"
+            src="/images/perfil.png"
+            alt="Kaio Vinicius - Profile"
             fill
+            sizes="(max-width: 768px) 100vw, 25vw"
+            priority
             style={{ objectFit: "cover" }}
-            className="rounded-full"
+            className="transition-transform duration-300 group-hover:scale-105"
           />
         </div>
+
+        {/* Card 3: Availability (col-span-1) */}
+        <div className="md:col-span-1 card-bento flex items-center gap-4">
+          <div className="relative flex h-3 w-3">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+          </div>
+          <p className="text-[14px] sm:text-[15px] font-semibold text-textColor font-body">
+            Disponível para novos projetos
+          </p>
+        </div>
+
+        {/* Card 4: Tech Stack Grid (col-span-2) */}
+        <div className="md:col-span-2 card-bento flex flex-col justify-between gap-4">
+          <div>
+            <h3 className="text-[18px] font-bold text-textColor font-heading">
+              Principais Tecnologias
+            </h3>
+            <p className="text-[14px] text-secondaryColor font-body">
+              Minhas ferramentas mais fortes de ponta a ponta.
+            </p>
+          </div>
+          <div className="grid grid-cols-3 gap-3">
+            <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
+              <FaAngular className="w-5 h-5 text-red-600 shrink-0" />
+              <span className="text-xs font-semibold text-textColor">Angular</span>
+            </div>
+            <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
+              <FaReact className="w-5 h-5 text-sky-500 shrink-0" />
+              <span className="text-xs font-semibold text-textColor">React</span>
+            </div>
+            <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
+              <FaNodeJs className="w-5 h-5 text-green-600 shrink-0" />
+              <span className="text-xs font-semibold text-textColor">Node.js</span>
+            </div>
+            <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
+              <SiCsharp className="w-5 h-5 text-violet-600 shrink-0" />
+              <span className="text-xs font-semibold text-textColor">C#</span>
+            </div>
+            <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
+              <SiDotnet className="w-5 h-5 text-indigo-600 shrink-0" />
+              <span className="text-xs font-semibold text-textColor">.NET</span>
+            </div>
+            <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
+              <FaSalesforce className="w-5 h-5 text-sky-600 shrink-0" />
+              <span className="text-xs font-semibold text-textColor">Salesforce</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Card 5: Quick Stats (col-span-1) */}
+        <div className="md:col-span-1 card-bento flex flex-col justify-center items-center text-center p-6 gap-2">
+          <span className="text-[36px] sm:text-[44px] font-bold text-cta leading-none font-heading">
+            3+
+          </span>
+          <span className="text-xs sm:text-sm font-semibold uppercase text-secondaryColor tracking-wider font-body">
+            Anos de Código
+          </span>
+          <div className="w-8 h-[2px] bg-cardBorder my-1"></div>
+          <span className="text-[20px] font-bold text-textColor font-heading">
+            15+ Projetos
+          </span>
+          <span className="text-xs text-secondaryColor font-body">
+            Desenvolvidos & Entregues
+          </span>
+        </div>
+
       </div>
     </div>
   );

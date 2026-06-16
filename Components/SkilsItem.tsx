@@ -7,11 +7,11 @@ interface Props {
 
 const SkilsItem = ({ title, text }: Props) => {
   return (
-    <div className="mb-[4rem] md:mb-[8rem]">
-      <h1 className="mt-[2rem] uppercase font-semibold mb-[1rem] text-[20px] sm:text-[25px] md:text-[30px] text-white">
+    <div className="mb-[4rem] md:mb-[6rem]">
+      <h3 className="mt-[1.5rem] uppercase font-bold mb-[1rem] text-[20px] sm:text-[22px] md:text-[26px] text-textColor font-heading">
         {title}
-      </h1>
-      <p className="text-[#aaaaaa] font-normal w-[80%] text-[18px] opacity-80">
+      </h3>
+      <p className="text-secondaryColor font-normal w-[90%] text-[15px] sm:text-[16px] leading-relaxed font-body">
         {text}
       </p>
     </div>

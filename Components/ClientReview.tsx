@@ -27,9 +27,8 @@ const ClientReview = ({ name, image, assessment }: Props) => {
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-400" />
         <StarIcon className="w-[2rem] h-[2rem] text-yellow-400" />
       </div>
-      <h1 className="text-[25px] mt-[1rem] text-white">{name}</h1>
-      <p className="text-[18px] text-white opacity-75 mt-[0.5rem] mb-[1.4rem]"></p>
-      <p className="text-[16px] text-white opacity-50 w-[90%] mx-auto md:w-[50%]">
+      <h4 className="text-[22px] mt-[1rem] text-textColor font-bold font-heading">{name}</h4>
+      <p className="text-[15px] sm:text-[16px] text-secondaryColor leading-relaxed w-[90%] mx-auto md:w-[60%] font-body mt-2">
         {assessment}
       </p>
     </div>

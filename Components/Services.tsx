@@ -4,11 +4,11 @@ import { FaCode, FaServer, FaSalesforce } from "react-icons/fa";
 const Services = () => {
   return (
     <div
-      className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]"
+      className="bg-backgroundColor border-b border-zinc-200/60 pt-[4rem] md:pt-[8rem] pb-[5rem]"
       id="services"
     >
-      <p className="heading">
-        Meus <span className="text-yellow-400">Serviços</span>
+      <p className="heading font-heading">
+        Meus <span className="text-cta">Serviços</span>
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] w-[80%] mx-auto items-stretch mt-[4rem] text-white">
         {/* Frontend Card */}

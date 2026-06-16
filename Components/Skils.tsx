@@ -4,11 +4,11 @@ import SkilsLanguage from "./SkilsLanguage";
 
 const Skils = () => {
   return (
-    <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]">
-      <h1 className="heading">
-        Hard <span className="text-yellow-400">Skills</span>
+    <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-cardBg border-b border-cardBorder">
+      <h1 className="heading mb-[4rem] font-heading">
+        Hard <span className="text-cta">Skills</span>
       </h1>
-      <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-start">
+      <div className="w-[80%] mx-auto pt-[2rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-start">
         {/* Left Column - Frontend */}
         <div>
           <SkilsItem
