@@ -79,7 +79,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       projects,
     },
     // Revalidate once every hour in production
-    revalidate: 3600,
+    ...(process.env.GITHUB_ACTIONS === "true" ? {} : { revalidate: 3600 }),
   };
 };
 
