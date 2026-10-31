@@ -1,14 +1,23 @@
 import React from "react";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
-import { FaAngular, FaReact, FaNodeJs, FaSalesforce, FaWhatsapp, FaDownload } from "react-icons/fa";
+import {
+  FaAngular,
+  FaReact,
+  FaNodeJs,
+  FaSalesforce,
+  FaWhatsapp,
+  FaDownload,
+} from "react-icons/fa";
 import { SiCsharp, SiDotnet } from "react-icons/si";
 
 const Home = () => {
   return (
-    <div className="bg-backgroundColor pt-[16vh] pb-[4rem] min-h-screen flex items-center" id="nav">
+    <div
+      className="bg-backgroundColor pt-[16vh] pb-[4rem] min-h-screen flex items-center"
+      id="nav"
+    >
       <div className="w-[85%] mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 items-stretch">
-        
         {/* Card 1: Principal Intro (col-span-3) */}
         <div className="md:col-span-3 card-bento flex flex-col justify-between gap-6 min-h-[350px]">
           <div>
@@ -19,13 +28,15 @@ const Home = () => {
               <TextEffect />
             </div>
             <p className="mt-4 text-[16px] sm:text-[18px] text-secondaryColor font-body leading-relaxed max-w-[90%]">
-              Sou um Desenvolvedor de Software Full-Stack, focado em criar arquiteturas backend robustas com C#/.NET e Node.js, interfaces ricas com Angular/React e customizações de grande escala no ecossistema Salesforce.
+              Sou um Desenvolvedor de Software Full-Stack, focado em criar
+              arquiteturas backend robustas com C#/.NET e Node.js, interfaces
+              ricas com Angular/React/Next.
             </p>
           </div>
-          
+
           <div className="flex flex-wrap gap-4 items-center">
             <a
-              href="https://drive.google.com/uc?export=download&id=1Yl-QVDPG_cWifiUmlT17uxxUDyLu1eBI"
+              href="https://docs.google.com/document/d/1XSGBXO1LTM_-3lg1J8amdRuJ4qKr7r00/export?format=pdf"
               download="KaioCurriculo.pdf"
               className="btn-primary flex items-center gap-2 text-[16px]"
             >
@@ -81,15 +92,21 @@ const Home = () => {
           <div className="grid grid-cols-3 gap-3">
             <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
               <FaAngular className="w-5 h-5 text-red-600 shrink-0" />
-              <span className="text-xs font-semibold text-textColor">Angular</span>
+              <span className="text-xs font-semibold text-textColor">
+                Angular
+              </span>
             </div>
             <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
               <FaReact className="w-5 h-5 text-sky-500 shrink-0" />
-              <span className="text-xs font-semibold text-textColor">React</span>
+              <span className="text-xs font-semibold text-textColor">
+                React
+              </span>
             </div>
             <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
               <FaNodeJs className="w-5 h-5 text-green-600 shrink-0" />
-              <span className="text-xs font-semibold text-textColor">Node.js</span>
+              <span className="text-xs font-semibold text-textColor">
+                Node.js
+              </span>
             </div>
             <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
               <SiCsharp className="w-5 h-5 text-violet-600 shrink-0" />
@@ -101,7 +118,9 @@ const Home = () => {
             </div>
             <div className="flex items-center gap-2 p-2.5 rounded-lg border border-cardBorder bg-badgeBg hover:opacity-85 transition-opacity duration-200 cursor-default">
               <FaSalesforce className="w-5 h-5 text-sky-600 shrink-0" />
-              <span className="text-xs font-semibold text-textColor">Salesforce</span>
+              <span className="text-xs font-semibold text-textColor">
+                Salesforce
+              </span>
             </div>
           </div>
         </div>
@@ -122,7 +141,6 @@ const Home = () => {
             Desenvolvidos & Entregues
           </span>
         </div>
-
       </div>
     </div>
   );
